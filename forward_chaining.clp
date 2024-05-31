@@ -14,7 +14,11 @@
      (person (name jacob) (parent mary) (gender male))
      (person (name lily) (parent emily) (gender female))
      (person (name ethan) (parent susan) (gender male))
-     (person (name jess) (parent sarah) (gender female)))
+     (person (name jess) (parent sarah) (gender female))
+     (person (name alex) (parent none) (gender male))
+     (person (name emma) (parent none) (gender female))
+     (person (name oliver) (parent none) (gender male))
+     (person (name charlotte) (parent none) (gender female)))
 
    (defrule find-ancestor
      (person (name ?x) (parent ?y))
